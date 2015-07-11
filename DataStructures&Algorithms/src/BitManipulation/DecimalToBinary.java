@@ -33,8 +33,11 @@ public class DecimalToBinary {
         if(n<=1) return Integer.toString(n);
         String result="";
         while(n>0){
+            System.out.println("be"+n);
              result = (n & 1) + result;
+            System.out.println("r" +result);
             n = n >> 1;
+            System.out.println("af"+n);
         }
         return result;
     }
