@@ -38,4 +38,21 @@ public class rotateArray {
 
     }
 
+    //332ms
+//    public void rotate(int[] a,int k){
+//        k %=a.length;
+//        int[] aux = new int[a.length];
+//        for(int i=0;i<a.length;i++){
+//            aux[i] = a[i];
+//        }
+//
+//        for(int i=0;i<a.length;i++){
+//            if(i+k < a.length){
+//                a[i+k] = aux[i];
+//            }else{
+//                a[Math.abs( (i+k) - a.length)] = aux[i];
+//            }
+//        }
+//    }
+
 }
